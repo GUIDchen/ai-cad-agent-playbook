@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="AI CAD Agent Playbook">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08152b"/>
+      <stop offset="0.55" stop-color="#0f2f56"/>
+      <stop offset="1" stop-color="#1b4f7a"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <g opacity="0.16" stroke="#93c5fd" stroke-width="1">
+    <path d="M0 300 L1280 180"/><path d="M0 240 L1280 120"/><path d="M0 360 L1280 240"/>
+    <path d="M200 0 L1000 360"/><path d="M420 0 L1220 360"/>
+  </g>
+
+  <g font-family="'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="72" y="96" fill="#7dd3fc" font-size="22" letter-spacing="6">AI AGENT × CAD</text>
+    <text x="72" y="176" fill="#ffffff" font-size="54" font-weight="700">智能画图应用 · 技术方案与难度评估</text>
+    <text x="72" y="222" fill="#c7ddf5" font-size="24">大模型做决策 · CAD 原生 API 执行 · 几何回读校验</text>
+
+    <g font-size="18" font-weight="600">
+      <rect x="72" y="262" width="150" height="40" rx="20" fill="#0b3a5e" stroke="#38bdf8" stroke-opacity="0.5"/>
+      <text x="147" y="288" fill="#bae6fd" text-anchor="middle">AutoCAD</text>
+
+      <rect x="238" y="262" width="180" height="40" rx="20" fill="#0b3a5e" stroke="#38bdf8" stroke-opacity="0.5"/>
+      <text x="328" y="288" fill="#bae6fd" text-anchor="middle">SolidWorks</text>
+
+      <rect x="434" y="262" width="196" height="40" rx="20" fill="#0b3a5e" stroke="#38bdf8" stroke-opacity="0.5"/>
+      <text x="532" y="288" fill="#bae6fd" text-anchor="middle">Altium AD24</text>
+
+      <rect x="646" y="262" width="176" height="40" rx="20" fill="#0b3a5e" stroke="#38bdf8" stroke-opacity="0.5"/>
+      <text x="734" y="288" fill="#bae6fd" text-anchor="middle">ComfyUI</text>
+
+      <rect x="838" y="262" width="120" height="40" rx="20" fill="#0b3a5e" stroke="#38bdf8" stroke-opacity="0.5"/>
+      <text x="898" y="288" fill="#bae6fd" text-anchor="middle">MCP</text>
+    </g>
+
+    <rect x="72" y="318" width="240" height="4" rx="2" fill="url(#line)"/>
+  </g>
+</svg>
