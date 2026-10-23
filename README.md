@@ -25,7 +25,7 @@
 3. 每一块的难度、工期、成本、风险分别是多少？
 4. 哪些方向应该立刻做、哪些应该缓、哪些根本不该立项？
 
-配套一份 15 章、约 2.8 万字符的中文技术报告（[Markdown](docs/ai-cad-agent-playbook.zh-CN.md) / [Word](docs/ai-cad-agent-playbook.zh-CN.docx)），含 Python / C# / DelphiScript / ComfyUI 调用示例。
+配套一份 15 章、约 2.8 万字符的中文技术报告（[Markdown](docs/ai-cad-agent-playbook.zh-CN.md) / [Word](docs/ai-cad-agent-playbook.zh-CN.docx)），含 Python / DelphiScript / ComfyUI 调用示例与 API 参数说明。
 
 ## 这不是什么
 
@@ -145,6 +145,17 @@ python tools/md2docx.py docs/ai-cad-agent-playbook.zh-CN.md docs/ai-cad-agent-pl
 ## 贡献
 
 欢迎补充真实踩坑、修正 API 细节、提交新的场景案例。请先读 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+## English
+
+A practical playbook for building AI agents that actually drive CAD software. The core idea is simple:
+**the LLM plans, native CAD APIs execute, and a geometric read-back step verifies** — text-to-CAD models alone
+cannot produce production drawings.
+
+Covers AutoCAD (COM / DXF / MCP), SolidWorks (COM, parametric templates, drawings), Altium Designer 24
+(scripts, BOM/DRC — no AI generation API), AI image generation (ComfyUI + ControlNet + LoRA), drawing
+understanding (VLM/OCR/RAG) and agent orchestration. The full report is in Chinese, with code samples and a
+difficulty / cost / risk matrix.
 
 ## 许可与免责
 
